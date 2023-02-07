@@ -21,7 +21,7 @@ group_by(poison) %>%
 summarise( 
 count_poison = n(), 
 mean_time = mean(time, na.rm = TRUE),
- sd_time = sd(time, na.rm = TRUE)
+sd_time = sd(time, na.rm = TRUE)
 )
 
 #Plot a box plot
