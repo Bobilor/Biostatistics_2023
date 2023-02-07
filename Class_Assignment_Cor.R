@@ -3,9 +3,6 @@
 #Load Data set
 Data <-read.csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv") 
 
-#Load library
-library("ggpubr")
-
 # Just print the correlation value without plotting for Fips and Case
 res <- cor.test(Data$fip, Data$case, method = "pearson")
 #Correlation Coefficien = -0.1449438
