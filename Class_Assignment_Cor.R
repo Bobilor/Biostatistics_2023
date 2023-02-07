@@ -5,9 +5,9 @@ Data <-read.csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/
 
 # Just print the correlation value without plotting for Fips and Case
 res <- cor.test(Data$fips, Data$cases, method = "pearson")
-#Correlation Coefficien = -0.1449438
+#Correlation Value = -0.1449438
 
 
 #Just print the correlation value without plotting for Fips and Death
 res <- cor.test(Data$fips, Data$deaths, method = "pearson")
-#Correlation Coefficien = -0.1650371
+#Correlation Value = -0.1650371
