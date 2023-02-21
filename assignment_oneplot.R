@@ -12,5 +12,7 @@ ggscatter(my_data, x = "mpg", y = "disp", add = "reg.line", conf.int = TRUE, cor
 # Just print the correlation value without plotting
 res <- cor.test(my_data$disp, my_data$mpg, method = "pearson")
 
+#Correlation Value = -0.85
+
 
 
